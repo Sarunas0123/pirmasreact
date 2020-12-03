@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Contacts() {
+const Contacts = (props) => {
     return (
         <div className="contact-card">
-            <h3> Name: {props,name}</h3>
-            <p> </p>
+            <h3> Name: {props.name}</h3>
+            <p> Email: {props.email}</p>
         </div>
     )
 }
