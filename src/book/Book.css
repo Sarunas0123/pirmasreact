@@ -1,0 +1,11 @@
+.onebook{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 3px black solid;
+    padding: 10px;
+}
+img{
+    width: 200px;
+    height: 150px;
+}
